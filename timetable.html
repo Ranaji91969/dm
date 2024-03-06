@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+    <link rel="stylesheet" href="timetable.css">
+</head>
+<body>
+    <h2>Time Table</h2>
+    <table>
+        <!-- <caption>TimeTable</caption> -->
+        <tr>
+            <th>Days</th>
+            <th>9am-10am</th>
+            <th>10am-11am</th>
+            <th>11am-12pm</th>
+            <th>12pm-1pm</th>
+            <th>1pm-2pm</th>
+        </tr>
+
+        <tr>
+            <th>Monday</th>
+            <td>Web Development</td>
+            <td>Python Programming</td>
+            <td id="lunch" rowspan="6">Lunch</td>
+            <td>Artificial Intelligence</td>
+            <td>Java Programming</td>
+        </tr>
+
+        <tr>
+            <th>Tuesday</th>
+            <td>Java Programming</td>
+            <td>Artificial Intelligence</td>
+            <!-- <td>Lunch</td> -->
+            <td>Web Development</td>
+            <td>Python Programming</td>
+        </tr>
+        <tr>
+            <th>Wednesday</th>
+            <td>Artificial Intelligence</td>
+            <td>Java Programming</td>
+            <!-- <td>Lunch</td> -->
+            <td>Web Development</td>
+            <td>Python Programming</td>
+        </tr>
+        <tr>
+            <th>Thursday</th>
+            <td>Web Development</td>
+            <td>Python Programming</td>
+            <!-- <td>Lunch</td> -->
+            <td>Artificial Intelligence</td>
+            <td>Java Programming</td>
+        </tr>
+        <tr>
+            <th>Friday</th>
+            <td>Artificial Intelligence</td>
+            <td>Web Development</td>
+            <!-- <td>Lunch</td> -->
+            <td>Python Programming</td>
+            <td>Java Programming</td>
+        </tr>
+    </table>
+
+    <form>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label>
+
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+
+        <input type="radio" name="gender" id="others">
+        <label for="others">Others</label><br>
+
+        <input type="checkbox" name="books" id="atomichabbits">
+        <label for="atomichabbits">Atomic Habits</label><br>
+        <input type="checkbox" name="books" id="richdadpoordad">
+        <label for="richdadpoordad">Rich Dad Poor Dad</label><br>
+        <input type="checkbox" name="books" id="whatyoungindiawants">
+        <label for="whatyoungindiawants">What young India wants</label><br>
+    </form>
+</body>
+</html>
